@@ -1,0 +1,25 @@
+
+        <div class="container">
+            <div class="group" ng-init="calcKPIs()">
+                <div ng-repeat="groups in tiles">
+                    <h1 class="h1">{{groups.group}}</h1>
+                    <div class="tile" ng-repeat="tile in groups.items">
+                        <a href="http://{{tile.url}}" class="a">
+
+                        	<div class="header-div">
+                       	 		<p class="tileTitle" tooltip-placement="right" tooltip="{{tile.title}}">{{tile.title}}</p>
+                        		<p class="tileSubTitle">{{tile.subTitle}}</p>
+                        	</div>
+							<div class="tileKPIContainer">
+                        		<span class="tileKPI {{tile.tileStyle}}">{{tile.kpi}}</span><span class="tileKPISuffix {{tile.tileStyle}}">{{tile.kpiSuffix}}</span>
+                        		<div class="tileIcon {{tile.tileStyle}}"><i class="{{tile.icon}}"></i></div>
+                        	</div>
+	                        <p class="tileFooter p">
+	                        	<span>{{tile.footer}}</span>
+	                        	<i class="{{tile.delayIconClass}}"></i>
+	                        </p>
+                        </a>
+                     </div>
+                </div>
+            </div>
+        </div>

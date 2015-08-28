@@ -1,0 +1,14 @@
+{
+    "db": "mongodb://localhost/mean-dev",
+    "dbhost" : "localhost",
+    "dbport": "6379",
+    "hanahost" : "localhost",
+    "hanaport": 8125,
+    "hanapollingPath" : "/updatesKpis",
+    "app": {
+        "name": "SocketScale - MEAN - A Modern Stack - Development"
+    },
+    "static_path" : "pubstatic",
+    "intervalInSec" : 15,
+    "debug" : false
+}

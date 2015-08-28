@@ -1,0 +1,440 @@
+{
+    "users": {
+        "Joan Baez": [
+            {
+                "group": "Finance",
+                "items": [
+                    {
+                        "id": "fin1",
+                        "title": "Financial Summary",
+                        "subTitle": "SAP JAM Group",
+                        "footer": "kpi since last activity",
+                        "kpi": "54",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-camera-retro fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "10",
+                        "delayIconClass" : "danger-icon"
+                    },
+                    {
+                        "id": "fin2",
+                        "title": "Cash On Account",
+                        "subTitle": "Today",
+                        "footer": "USD",
+                        "kpi": "62",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin3",
+                        "title": "Cash Position",
+                        "subTitle": "Today",
+                        "footer": "USD",
+                        "kpi": "94",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "good",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin4",
+                        "title": "Bank Risk",
+                        "subTitle": "Rating A- and below",
+                        "footer": "Last Updated: 17:23",
+                        "kpi": "27",
+                        "kpiSuffix": "",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin5",
+                        "title": "Liquidity Structure",
+                        "subTitle": "Past 12 Months (USD)",
+                        "footer": "USD",
+                        "kpi": "29",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin6",
+                        "title": "Critical Opportunities",
+                        "subTitle": "SAP JAM Group",
+                        "footer": "kpi since last activity",
+                        "kpi": "34",
+                        "kpiSuffix": "",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    },
+                    {
+                        "id": "fin7",
+                        "title": "My Timesheet",
+                        "subTitle": "Up-to-date",
+                        "footer": "Inaccessible",
+                        "kpi": "73",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-lock fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin8",
+                        "title": "Bank Statement",
+                        "subTitle": "Import Success Rate",
+                        "footer": "TX imported",
+                        "kpi": "363",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-warning fa-2x",
+                        "tileStyle": "warning",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin9",
+                        "title": "Deficit Cash Pool",
+                        "subTitle": "Today",
+                        "footer": "Critical",
+                        "kpi": "41",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-ambulance fa-2x",
+                        "tileStyle": "error",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "fin10",
+                        "title": "Liquidity Forcast",
+                        "subTitle": "Forecast in 7 kpi (USD)",
+                        "footer": "USD",
+                        "kpi": "58",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    },
+                    {
+                        "id": "fin11",
+                        "title": "REMA Key Account",
+                        "subTitle": "SAP JAM Group",
+                        "footer": "kpi since last activity",
+                        "kpi": "21",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-warning fa-2x",
+                        "tileStyle": "warning",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    }
+                ]
+            },
+            {
+                "group": "Calls",
+                "items": [
+                    {
+                        "id": "call1",
+                        "title": "Service Level",
+                        "subTitle": "SAP JAM Group",
+                        "footer": "kpi since last activity",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-camera-retro fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "10",
+                        "delayIconClass" : "danger-icon"
+                    },
+                    {
+                        "id": "call2",
+                        "title": "Call Resolution",
+                        "subTitle": "Today",
+                        "footer": "USD",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    },
+                    {
+                        "id": "call3",
+                        "title": "Active and Waiting Calls",
+                        "subTitle": "Today",
+                        "footer": "USD",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "good",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "call4",
+                        "title": "Call Abandonment",
+                        "subTitle": "Rating A- and below",
+                        "footer": "Last Updated: 17:23",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "call5",
+                        "title": "Average Handling Time",
+                        "subTitle": "Past Week)",
+                        "footer": "Mins",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    },
+                    {
+                        "id": "call6",
+                        "title": "Customer Satisfaction",
+                        "subTitle": "Today",
+                        "footer": "Critical",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-ambulance fa-2x",
+                        "tileStyle": "error",
+                        "username": "Ashley Hayes",
+                        "delay": "10",
+                        "delayIconClass" : "danger-icon"
+                    }
+                ]
+            },
+            {
+                "group": "Social",
+                "items": [
+                    {
+                        "id": "social1",
+                        "title": "Traffic",
+                        "subTitle": "Past 24hrs",
+                        "footer": "kpi since last activity",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-camera-retro fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "social2",
+                        "title": "Conversions",
+                        "subTitle": "Today",
+                        "footer": "USD",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    },
+                    {
+                        "id": "social3",
+                        "title": "Followers",
+                        "subTitle": "Today",
+                        "footer": "Critical",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-ambulance fa-2x",
+                        "tileStyle": "error",
+                        "username": "Ashley Hayes",
+                        "delay": "10",
+                        "delayIconClass" : "danger-icon"
+                    },
+                    {
+                        "id": "social4",
+                        "title": "New Followers",
+                        "subTitle": "All sites",
+                        "footer": ".",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "social5",
+                        "title": "Referrals",
+                        "subTitle": "",
+                        "footer": "kpi since last activity",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-warning fa-2x",
+                        "tileStyle": "warning",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "social6",
+                        "title": "Events",
+                        "subTitle": "SAP JAM Group",
+                        "footer": "kpi since last activity",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-camera-retro fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "social7",
+                        "title": "Sentiment",
+                        "subTitle": "Today",
+                        "footer": ".",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "social8",
+                        "title": "Facebook Impressions",
+                        "subTitle": "Today",
+                        "footer": ".",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-warning fa-2x",
+                        "tileStyle": "warning",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    }
+                ]
+            },
+            {
+                "group": "SAP",
+                "items": [
+                    {
+                        "id": "sap1",
+                        "title": "News",
+                        "subTitle": "Latest News",
+                        "footer": "kpi since last activity",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-camera-retro fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Colm Lynch",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "sap2",
+                        "title": "Stock Ticker",
+                        "subTitle": "XETRA",
+                        "footer": "EUR",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Colm Lynch",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "sap3",
+                        "title": "SAP TV",
+                        "subTitle": "Today",
+                        "footer": ".",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "good",
+                        "username": "Colm Lynch",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    }
+                ]
+            },
+            {
+                "group": "My SAP",
+                "items": [
+                    {
+                        "id": "hr1",
+                        "title": "Leave Request",
+                        "subTitle": "",
+                        "footer": "Requests Pending",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "10",
+                        "delayIconClass" : "danger-icon"
+                    },
+                    {
+                        "id": "hr2",
+                        "title": "SRM Shopping",
+                        "subTitle": "",
+                        "footer": ".",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "tileStyle": "normal",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    },
+                    {
+                        "id": "hr3",
+                        "title": "CATS",
+                        "subTitle": "",
+                        "footer": "Overdue",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-ambulance fa-2x",
+                        "tileStyle": "error",
+                        "username": "Ashley Hayes",
+                        "delay": "0",
+                        "delayIconClass" : "ok-icon"
+                    },
+                    {
+                        "id": "hr4",
+                        "title": "IT Direct",
+                        "subTitle": "Create New Ticket",
+                        "footer": ".",
+                        "kpi": "12",
+                        "kpiSuffix": "",
+                        "icon": "fa fa-dollar fa-2x",
+                        "username": "Ashley Hayes",
+                        "delay": "5",
+                        "delayIconClass" : "warning-icon"
+                    }
+                ]
+            }
+        ]
+    }
+}

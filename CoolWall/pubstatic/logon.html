@@ -1,0 +1,62 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- build:css(.tmp) /styles/logon.css -->
+<link rel="stylesheet" href="/styles/bootstrap.css">
+<link rel="stylesheet" href="/styles/logon.css">
+<!-- endbuild -->
+
+</head>
+<body>
+	<div class="container">
+
+		<form action="/logon" method="post" class="form-signin">
+			<h2 class="form-signin-heading">Please sign in</h2>
+			<input type="text" name="username" class="form-control"
+				placeholder="Username or Email address" required autofocus> <input
+				type="password" name="password" class="form-control"
+				placeholder="Password" required> <label class="checkbox">
+				<input type="checkbox" value="remember-me"> Remember me
+			</label>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign
+				in</button>
+			<div id="errors" class="spacer alert alert-danger" style="display:none">
+			</div>
+			
+		</form>
+		
+
+	</div>
+	<!-- /container -->
+</body>
+
+<script language="javascript">
+
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	var validMessage = getParameterByName("valid");
+	if(validMessage && validMessage != '') {
+		document.getElementById("errors").innerHTML = '<strong>Warning!</strong> '+validMessage;
+		document.getElementById("errors").style.display = "block";
+	}
+	
+</script>
+
+</html>

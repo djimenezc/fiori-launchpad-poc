@@ -1,0 +1,14 @@
+{
+    "db": "mongodb://localhost/mean-dev",
+    "dbhost" : "10.97.16.166",
+    "dbport": "6379",
+    "hanahost" : "mo-3c414b4f8.mo.sap.corp",
+    "hanaport": 8000,
+    "hanapollingPath" : "/com/sap/dashboardpoc/service/pollingStatus.xsodata/PollingDetails/?$format=json",
+    "app": {
+        "name": "SocketScale - MEAN - A Modern Stack - Development"
+    },
+    "static_path" : "pubstatic",
+    "intervalInSec" : 15,
+    "debug" : true
+}
